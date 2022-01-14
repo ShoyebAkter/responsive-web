@@ -17,7 +17,7 @@ body {
 i {
   padding-top: 27px;
   text-decoration: none;
-  padding-right: 40px;
+  padding-right: 30px;
   padding-left: 10px;
 }
 .last-sec {
@@ -55,3 +55,22 @@ i {
   color: black;
 }
 /* main starts */
+.collection {
+  margin: 0px 180px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(252, 245, 245);
+  border-radius: 10px;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+img {
+  border-radius: 8px;
+}
+.element {
+  border-radius: 15px;
+  margin: 7px;
+  background-color: white;
+}
