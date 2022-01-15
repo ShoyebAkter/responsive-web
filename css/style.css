@@ -130,6 +130,14 @@ footer {
   .see-more {
     width: 100%;
   }
+  .info h2 {
+    transition-property: font-size;
+    transition-duration: 2s;
+  }
+  .info h2:hover {
+    font-size: 2em;
+    color: red;
+  }
   .container,
   .navbar,
   main,
@@ -151,6 +159,14 @@ footer {
   .navbar,
   main {
     width: 100%;
+  }
+  .info h2 {
+    transition-property: font-size;
+    transition-duration: 2s;
+  }
+  .info h2:hover {
+    font-size: 2em;
+    color: red;
   }
   .container,
   .navbar,
