@@ -72,12 +72,16 @@
   color: white;
 }
 .see-more {
-  float: right;
+  display: flex;
+  flex-direction: row-reverse;
   border-radius: 15px;
-  color: #e02c6d;
-  margin-right: 183px;
-  text-decoration: none;
+  margin-right: 5%;
   margin-top: 30px;
+}
+.see-more a {
+  color: #e02c6d;
+
+  text-decoration: none;
 }
 .pic-collections {
   display: grid;
@@ -126,8 +130,7 @@ footer {
   .header,
   .navbar,
   main,
-  footer,
-  .see-more {
+  footer {
     width: 100%;
   }
   .info h2 {
